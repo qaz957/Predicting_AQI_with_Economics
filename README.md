@@ -28,8 +28,6 @@ Taking Median AQI by Year and Industry Employment by County.
  
 Linear Regression Model testing significance of Industry on Air Quality Index 
 
-### Dashboard
-
-
-
 We plan to test a few other models as well, but the goal is to find a model that can consistently predict air quality changes based on inudstry growth.
+
+### Dashboard
