@@ -24,15 +24,22 @@ We stored our data in an AWS S3 bucket and linked it to PGAdmin.
 
 ### Machine Learning Module: 
  
-Taking Median AQI by Year and Industry Employment by County. 
+Predicting Median AQI by Year (Outcome) with Industry Employment by County (Predictors). 
  
-Linear Regression Model testing significance of Industry on Air Quality Index 
+Linear Regression Model: testing significance of Industry on Air Quality Index 
+*Multiple linear regression was chosen since the initial form of the data has quantitative values for each predictor variable (employment percentage within a county) and a continuous numerical outcome variable (Median_AQI for a county)
+*During the training of the model, the dataset was split into and 80% training set and a 20% testing set using Python's train_test_split function from the skearn.model_selection library.
+*The initial model had very low predictive value (R^2 ~ 0.01) with 1% of the variation of median AQI being explained by variation in the employment percentage by industries.
+*To improve the model we decided to reduce features by evaluating VIF (variance inflation factor) scores that measures multicollinearity. We removed many of the features that had calculated VIF scores above 10 and the predictive power of the model did not improve. 
+*We recognized that we had yet to remove outliers from the initial data so the next step was to remove percentages that were more than 1.8(IQR) above the 75th percentile or were 1.8(IQR) below the 25th percentile. The R^2 value did not improve after the removal of outliers.
 
-We plan to test a few other models as well, but the goal is to find a model that can consistently predict air quality changes based on inudstry growth.
+Binning Values:
+*Instead of predicting a continous outcome variable we decided to bin the AQI values into 4 separate categories and attempt to use classification models to predict how the industries affect which category the AQI fits in for that county.
+
+Decision Tree: Classifying Median_AQI based on industry employment percentages
+*This classifier has been used as our initial attempt at determining if a classification method can be used for our binned categorical values. 
+*An initial review has given us Accuracy scores of ~70-80% which is a considerable improvement from our previous model.
+*Additional evaluation metrics (Precision, Recall, Specificity) will be explored and the use of ensemble methods to improve our model's power will be included as well. 
+
 
 ### Dashboard
-
-We will be utilizing Tableau to show how or raw data has been transformed to information that can be easily visualized and understood by someone with no background knowledge on the subject. 
-
-#### Draft of how the final vizualization of data will be displayed showing AQI and Industry Data
-![Visualization](https://github.com/qaz957/Team_Zephyr/blob/main/Dashboard/Tableau%20Story.png)
