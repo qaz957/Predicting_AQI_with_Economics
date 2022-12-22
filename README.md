@@ -33,3 +33,6 @@ We plan to test a few other models as well, but the goal is to find a model that
 ### Dashboard
 
 We will be utilizing Tableau to show how or raw data has been transformed to information that can be easily visualized and understood by someone with no background knowledge on the subject. 
+
+#### Draft of how the final vizualization of data will be displayed showing AQI and Industry Data
+![Visualization](https://github.com/qaz957/Team_Zephyr/blob/main/Dashboard/Tableau%20Story.png)
