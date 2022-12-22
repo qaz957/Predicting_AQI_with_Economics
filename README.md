@@ -18,6 +18,8 @@ What have the general trends over 10 years been in Air Quality?
 
 We have taken economic data from the Census Bureau to identify employment in certain areas by county. The air quality index we are using comes from the EPA and we isolated 3 years, 2010, 2015 and 2019 to use for training and testing. We felt that 2020 was probably going to be an outlier year for employment and air quality so we opted not to use it. After cleaning the data and joining it to the air quality data, we are left with 477 counties in the US that have complete data that we can train from.
 
+![Capture](https://user-images.githubusercontent.com/108296899/209031532-d12e826f-5639-4028-bfc9-9a0ef0be0ca7.PNG)
+
 ### Database
 
 We stored our data in an AWS S3 bucket and linked it to PGAdmin.
