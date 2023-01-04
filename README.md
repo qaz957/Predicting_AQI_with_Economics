@@ -54,3 +54,15 @@ Decision Tree: Classifying Median_AQI based on industry employment percentages
 
 
 ### Dashboard
+
+### Project Requirements
+Libraries and code to run the project files:
+- pip install numpy
+- pip install pandas
+- pip install sklearn
+- from statsmodels.stats.outliers_influence import variance_inflation_factor
+- from sklearn.model_selection import train_test_split
+- from sklearn.tree import DecisionTreeClassifier
+- from sklearn import metrics
+- from sklearn.tree import export_text
+- from sklearn.metrics import classification_report
