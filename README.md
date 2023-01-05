@@ -4,6 +4,7 @@ Tableau Dashboard:
 Deliverable 2:
 https://public.tableau.com/app/profile/andrew.eamonn.walters/viz/DashboardForSegment2/DashboardSeg2?publish=yes
 
+Tableau Dashboard:
 Deliverable 3:
 https://public.tableau.com/app/profile/andrew.eamonn.walters/viz/DashboardForSegment3/InteractiveofAQI?publish=yes
 
