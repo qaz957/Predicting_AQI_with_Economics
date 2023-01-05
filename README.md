@@ -39,6 +39,12 @@ Economic data from the Census Bureau has been taken to identify employment in ce
 
 The data is stored in an AWS S3 bucket and linked to PGAdmin.
 
+<img   src="https://github.com/qaz957/Team_Zephyr/blob/main/Images/DB_Details_AWS.JPG"  alt="AWS RDS"  title="AWS RDS" style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+<img   src="https://github.com/qaz957/Team_Zephyr/blob/main/Images/S3_Files.JPG"  alt="S3 Files"  title="S3 Files" style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+<img   src="https://github.com/qaz957/Team_Zephyr/blob/main/Images/Tbl_Logins.JPG"  alt="TBL"  title="TBL" style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 ### Machine Learning Module: 
  
 Predicting Median AQI by Year (Outcome) with Industry Employment by County (Predictors). 
