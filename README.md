@@ -63,12 +63,15 @@ Decision Tree: Classifying Median_AQI based on industry employment percentages
 
 - This classifier has been used as our initial attempt at determining if a classification method can be used for our binned categorical values. 
 
-- The final Accuracy scores vary from ~78-90% which is a considerable improvement from our previous model.
+- The final Accuracy scores vary from ~78-90% which is a considerable improvement from the previous model.
 
-- Additional evaluation metrics (Precision, Recall, F1 Score) are included. 
+- Additional evaluation metrics (Precision, Recall, F1 Score) are included to evaluate the utility of the classification method. 
+
+Improvement of Decision Tree Model:
 
 - Future work for this project could include the use of ensemble methods (bagging and boosting) to improve the model's predictive power. 
 
+- Additionally, tree pruning can be used to remove the furthest down leaves and branches sequentially to check for any increase in the evaluation metrics.
 
 ### Dashboard
 
