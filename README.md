@@ -6,7 +6,7 @@
 
 This project looks at data on air quality by county and the growth of certain industries over time to determine if there is a correlation between certain industries growth and changes in air quality by county. Air Quality can be tied to many socioeconomic factors, and so it is important to track the AQI to determine which industries have a sizeable impact on those factors. 
 
-### Questions we hope to answer:
+### Questions to answer:
 
 What industries, if any, have a noticeable impact on Air Quality?
 
