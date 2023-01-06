@@ -35,6 +35,29 @@ What have the general trends over 10 years been in Air Quality?
 
 Economic data from the Census Bureau has been taken to identify employment in certain areas by county. The air quality index comes from the EPA and is isolated to 3 years, 2010, 2015 and 2019 to use for training and testing. The year 2020 is likely a significantly different year for employment and air quality so it was not included in the analysis. After cleaning the data and joining it to the air quality data, there are 477 counties in the US that have complete data that can be trained on. With outliers removed for each year, there are approximately 380 rows remaining in each dataset.
 
+- Data from EPA was scraped with this script and joined into one data frame
+
+      # Def current year variable
+      year = 2022
+
+      # For loop iterating through the files, getting Median AQI for every year per county
+      for i in range(int(year-1979)):
+
+        url=f"https://aqs.epa.gov/aqsweb/airdata/annual_aqi_by_county_{year}.zip"
+        rawAQI_df=pd.read_csv(url)
+
+        AQI_df = rawAQI_df[["State", "County", "Median AQI"]]
+        AQI_df.rename(columns = {"Median AQI" : f"{year}_Median_AQI"}, inplace = True)
+
+        # Continuously join data to make one data frame
+        join_df = pd.merge(join_df, AQI_df, how="left", on = ["State", "County"])
+
+        year = year-1
+        
+- Census data had to be collected manually
+
+- EPA and Census data had to be reformatted so that it could be joined together
+
 ### Database
 
 The data is stored in an AWS S3 bucket and linked to PGAdmin.
