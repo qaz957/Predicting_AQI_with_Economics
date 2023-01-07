@@ -98,7 +98,9 @@ Decision Tree: Classifying Median_AQI based on industry employment percentages
 
 Improvement of Decision Tree Model:
 
-- Future work for this project could include the use of ensemble methods (bagging and boosting) to improve the model's predictive power. 
+- Future work for this project could include the use of ensemble methods (bagging and boosting) to improve the model's predictive power.
+
+- Also, addressing any imbalance in the data with imbalanced learning methods may improve evaluation metrics.
 
 - Additionally, tree pruning can be used to remove the furthest down leaves and branches sequentially to check for any increase in the evaluation metrics.
 
