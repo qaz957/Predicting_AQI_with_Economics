@@ -25,11 +25,11 @@ This project looks at data on air quality by county and the growth of certain in
 
 ### Questions to answer:
 
-What industries, if any, have a noticeable impact on Air Quality?
+Can we determine the Air Quality of a U.S. county based on the industry employment percentages?
 
-What have the general trends over 10 years been within certain industries?
+What industries influence the classifying of Air Quality over the 10 years modelled?
 
-What have the general trends over 10 years been in Air Quality?
+What are the limitations of decision tree modelling for determining trends and predictive analytics?
 
 ### Data
 
