@@ -1,16 +1,5 @@
 # Team Zephyr Capstone Project
 
-Tableau Dashboard:
-Deliverable 2:
-https://public.tableau.com/app/profile/andrew.eamonn.walters/viz/DashboardForSegment2/DashboardSeg2?publish=yes
-
-Tableau Dashboard:
-Deliverable 3:
-https://public.tableau.com/app/profile/andrew.eamonn.walters/viz/DashboardForSegment3/InteractiveofAQI?publish=yes
-
-Google Docs Dashboard: 
-https://docs.google.com/presentation/d/1_gqyLhzalK05Y0FORbXTnmVFL3UMtM-kZME660mvdj8/edit#slide=id.p
-
 Google Sheets Presentation:
 https://docs.google.com/presentation/d/1IWXcgVthBSGJK0BXKmbCIxYhjlpTGMZ_kiGkcdTwyrs/edit#slide=id.p
 
@@ -105,6 +94,19 @@ Improvement of Decision Tree Model:
 - Additionally, tree pruning can be used to remove the furthest down leaves and branches sequentially to check for any increase in the evaluation metrics.
 
 ### Dashboard
+
+
+Tableau Dashboard:
+Deliverable 2:
+https://public.tableau.com/app/profile/andrew.eamonn.walters/viz/DashboardForSegment2/DashboardSeg2?publish=yes
+
+Tableau Dashboard:
+Deliverable 3:
+https://public.tableau.com/app/profile/andrew.eamonn.walters/viz/DashboardForSegment3/InteractiveofAQI?publish=yes
+
+Google Docs Dashboard: 
+https://docs.google.com/presentation/d/1_gqyLhzalK05Y0FORbXTnmVFL3UMtM-kZME660mvdj8/edit#slide=id.p
+
 
 ### Project Requirements
 Libraries and code to run the project files:
