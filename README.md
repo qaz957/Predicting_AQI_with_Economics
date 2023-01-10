@@ -27,8 +27,6 @@ This project looks at data on air quality by county and the growth of certain in
 
 Can we determine the Air Quality of a U.S. county based on the industry employment percentages?
 
-What industries influence the classifying of Air Quality over the 10 years modelled?
-
 What are the limitations of decision tree modelling for determining trends and predictive analytics?
 
 ### Data
