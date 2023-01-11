@@ -105,10 +105,10 @@ Deliverable 3:
 https://public.tableau.com/app/profile/andrew.eamonn.walters/viz/DashboardForSegment3/InteractiveofAQI?publish=yes
 
 Final Dashboard:
-
 https://public.tableau.com/app/profile/andrew.eamonn.walters/viz/DashboardFinal_16734784157570/InteractiveofAQI?publish=yes
 
 Google Docs Dashboard: 
+
 https://docs.google.com/presentation/d/1_gqyLhzalK05Y0FORbXTnmVFL3UMtM-kZME660mvdj8/edit#slide=id.p
 
 
